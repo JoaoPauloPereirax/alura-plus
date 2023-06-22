@@ -26,6 +26,8 @@ body{
      background-image:url("../images/Background.png");
      background-repeat: no-repeat;
      background-size: contain;
+     align-items: center;
+     text-align: center;
 }
 
 .container{
@@ -38,6 +40,10 @@ body{
      font-size: 28px;    
 }
 
+.container-img{
+     margin: 1em 0 2em 0; /*LEMBRAR DO RELÓGIO*/
+}
+
 .container-botao{
      background-color: var(--botao-azul);
      border-radius: 5px;/*Faz o arredondamento das bordas*/
@@ -45,6 +51,7 @@ body{
      color: var(--branco-principal);
      display: block; /*Faz com que fixe o botão em todo espaço da div*/
      text-decoration: none;
+     margin-bottom: 1em;
 }
 
 .container-botao-secundario{
@@ -54,5 +61,29 @@ body{
 
 .container-aviso{
      font-size: 12px;/*DETERMINA O TAMANHO DA FONTE*/
+     color: var(--cinza-secundario);
+}
+
+.container-caixa{
+     margin: 0 6em;
+}
+
+
+.secundario{
+     align-items: center;
+     margin: 0 10em;
+}
+.secundario-img{
+     width: 80%;
+}
+
+.descricao-titulo{
+     font-weight: 700;
+     font-size: 48px;
+     color: var(--branco-principal);
+     margin-bottom: 0.1em;/*COLOCA UM ESPAÇO ENTRE ITENS*/
+}
+
+.descricao-texto{
      color: var(--cinza-secundario);
 }

@@ -1,8 +1,13 @@
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
 :root{
      --branco-principal: #fff;
      --cinza-secundario: #c0c0c0;
      --botao-azul: #167bf7;
      --cor-de-fundo: #00030c;
+     --fonte-principal: 'Inter';
 }
 *{
      margin: 0;
@@ -12,6 +17,9 @@
 body{
      background-color: var(--cor-de-fundo);
      color: var(--branco-principal);
+     font-family: var(--fonte-principal);
+     font-size: 16px;
+     font-weight: 400;
 }
 
 .principal{
@@ -22,4 +30,29 @@ body{
 
 .container{
      height: 100vh;
+     display: grid;
+     grid-template-columns: 50% 50%;
+}
+
+.container-titulo{
+     font-size: 28px;    
+}
+
+.container-botao{
+     background-color: var(--botao-azul);
+     border-radius: 5px;/*Faz o arredondamento das bordas*/
+     padding: 1em;
+     color: var(--branco-principal);
+     display: block; /*Faz com que fixe o botão em todo espaço da div*/
+     text-decoration: none;
+}
+
+.container-botao-secundario{
+     background-color: transparent; 
+     border: 2px solid var(--branco-principal);
+}
+
+.container-aviso{
+     font-size: 12px;/*DETERMINA O TAMANHO DA FONTE*/
+     color: var(--cinza-secundario);
 }

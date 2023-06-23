@@ -78,7 +78,7 @@ body{
 }
 
 .descricao-titulo{
-     font-weight: 700;
+     font-weight: 700;/*ESPEÇURA DA LETRA*/
      font-size: 48px;
      color: var(--branco-principal);
      margin-bottom: 0.1em;/*COLOCA UM ESPAÇO ENTRE ITENS*/
@@ -86,4 +86,12 @@ body{
 
 .descricao-texto{
      color: var(--cinza-secundario);
+}
+
+.botao-secundario{
+     display: inline-block;
+     margin-top: 1em;
+}
+.container-descricao{
+     margin: 2em;
 }

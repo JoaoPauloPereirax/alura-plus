@@ -95,3 +95,26 @@ body{
 .container-descricao{
      margin: 2em;
 }
+
+.dispositivos{
+     text-align: center;
+}
+
+.disposititivos-titulo{
+     font-size: 48px;
+     color: var(--branco-principal);
+}
+
+
+.dispisitivos-lista{
+     display: flex;
+     justify-content: center;
+     list-style-type: none;/*RETIRA TODA FORMATAÇÃO DE LISTA*/
+     margin: 5em 0;
+}
+
+
+.lista-item{
+     font-size: 32px;
+     color: var(--branco-principal);
+}
